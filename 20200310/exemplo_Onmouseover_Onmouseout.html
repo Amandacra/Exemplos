@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo 5</title>
+    <script>
+        function aciona_mouse(valor){
+            document.getElementById("msg").innerHTML=valor;
+        }
+    </script>
+</head>
+<body>
+    <fieldset>
+        <legend><h3>Desenvolvendo o exemplo de onmouseover e onmouseout estudado com o professor Beluzo (JavaScript)</h3></legend>
+        <div id="msg"></div>
+        <table border="1" onmouseover="aciona_mouse('entrei na tabela da Amanda');" onmouseout="aciona_mouse('saí da tabela da Amanda');" >
+            <tr>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+            </tr>
+            <tr>
+                <td>Linha 1</td>
+                <td>Linha 2</td>
+                <td>Linha 3</td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>

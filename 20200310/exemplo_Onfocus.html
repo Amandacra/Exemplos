@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo 4</title>
+    <script>
+        function aciona_onfocus(valor){
+            document.getElementById("msg").innerHTML=valor;
+        }
+    </script>
+</head>
+<body>
+    <div id="msg"></div>
+    <form name="f">
+        <fieldset>
+            <legend><h3>Desenvolvendo o exemplo de Onfocus estudado com o professor Beluzo (JavaScript)</h3></legend>
+            <input type="text" name="x" onfocus="aciona_onfocus(this.value)"/>
+            <select name="z" onfocus="aciona_onfocus(this.value)">
+                <option>A</option>
+                <option>B</option>
+                <Option>C</Option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>

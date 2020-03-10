@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo 3</title>
+    <script>
+        function aciona_onblur(valor){
+            alert(valor);
+        }
+    </script>
+</head>
+<body>
+    <form name="f">
+        <fieldset>
+            <legend><h3>Desenvolvendo o exemplo de Onblur estudado com o professor Beluzo (JavaScript)</h3></legend>
+            <input type="text" name="x" onblur="aciona_onblur(this.value)"/>
+            <select name="z" onblur="aciona_onblur(this.value)">
+                <option>A</option>
+                <option>B</option>
+                <Option>C</Option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
