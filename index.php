@@ -32,5 +32,17 @@
         <br/>
         <a href="20200310/exemplo_Onload.html">Exemplo de Onload</a>
     </p>
+    <p>
+        <h3>Dia 11/08/2020 - JQuery:</h3>
+        <a href="20200811/Ex1_read.html">Exemplo de Ready</a>
+        <br/>
+        <a href="20200811/Ex2_click_hide.html">Exemplo de Click e hide</a>
+        <br/>
+        <a href="20200811/Ex3.html">Exemplo 2 de Click e hide</a>
+        <br/>
+        <a href="20200811/Ex4_id.html">Exemplo utilizando id</a>
+        <br/>
+        <a href="20200811/Ex5_classe.html">Exemplo utilizando classe</a>
+    </p>
 </body>
 </html>
