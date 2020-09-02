@@ -44,5 +44,25 @@
         <br/>
         <a href="20200811/Ex5_classe.html">Exemplo utilizando classe</a>
     </p>
+    <p>
+        <h3>Dia 18/08/2020 - JQuery:</h3>
+        <a href="20200818/exemplo_gatilhos_jquery.php">Exemplo de gatilhos</a>
+        <br/>
+        <a href="20200818/exemplo_acao_html.php">Exemplo da ação html</a>
+        <br/>
+        <a href="20200818/exemplo_acao_val.php">Exemplo da ação val</a>
+        <br/>
+        <a href="20200818/exemplo_acao_show_hide.php">Exemplo da ação show e hide</a>
+        <br/>
+        <a href="20200818/exemplo_acao_fadein_fadeout.php">Exemplo da ação fadeIn e fadeOut</a>
+    </p>
+    <p>
+        <h3>Dia 25/08/2020 - Ajax:</h3>
+        <a href="20200825/Exemplo1.php">Exemplo chamada de outra página por get com retorno de texto</a>
+        <br/>
+        <a href="20200825/Exemplo2.php">Exemplo chamada de outra página por get com retorno de horas</a>
+        <br/>
+        <a href="20200825/Exemplo3.php">Exemplo chamada de outra página passando parâmetro</a>
+    </p>
 </body>
 </html>
